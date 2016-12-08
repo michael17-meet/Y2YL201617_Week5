@@ -9,6 +9,20 @@
 <h1> Welcome to GeekBook</h1>
 
 <div class = "posts">
+<script type="text/javascript" src="http://code.jquery.com/jquery-
+latest.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/
+jquery-ui.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+  $('div').hover(function() {
+     var firstElement = $(this).first();
+     firstElement.css('background-color', 'red');
+});
+});
+</script>
+
+
   <h3>Laura</h3>
   <img src='images/avatar1.jpg'>
 <p> I Love MEET! </p>
